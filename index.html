@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>OpenWeatherMapTest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>OpenWeatherMap</title>
 </head>
 <body>
+    <h1 class="header">Get the weather!</h1>
+    <form class="input-form">
+        <input class="input-case" type="text" placeholder="Your city name">
+        <input class="btn-search" type="button" value="Search">
+    </form>
+    <div class="forecast" class=forecast style="height:100px; overflow-y:hidden"></div>
+    <button class="btn-clear">Clear</button>
     
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" 
+    integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" 
+    crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
