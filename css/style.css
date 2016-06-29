@@ -51,5 +51,6 @@ body{
     font-family: arial;
     color: white;
     text-align: center;
-    margin-top: 15px;
+    height: 140px;
+    overflow: auto;
 }
